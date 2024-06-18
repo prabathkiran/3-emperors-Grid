@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap");
+
+body {
+  background-color: #69306d;
+}
+
+header {
+  text-align: center;
+  border-bottom: 0.5px #d3bcc0 solid;
+  margin-bottom: 10px;
+}
+
+div.Trajan img {
+  width: 500px;
+}
+.grid-container {
+  width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.Nerva {
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+  align-items: center;
+}
+
+.Hadrian img {
+  width: 420px;
+}
+
+.Trajan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+  grid-column: span 3;
+}
+div.Trajan .inside {
+  display: grid;
+  grid-column: span 3;
+}
